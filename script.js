@@ -7,12 +7,12 @@ document.addEventListener('submit', function(e){
     //test which number is larger
     if(val1 > val2)
     {
-        console.log(val1 + " is larger than: "+ val2);
+       // console.log(val1 + " is larger than: "+ val2);
         ans = val1;
     }
     else
     {
-        console.log(val2 + " is larger than: " + val1);
+       // console.log(val2 + " is larger than: " + val1);
         ans = val2;
     }
     ansSubmit.innerHTML = ans;
@@ -25,17 +25,17 @@ document.addEventListener('submit', function(e){
     var holdstr = "";
     if(str1.length < str2.length)
     {
-      console.log(str1+ ' is smaller than' + str2);
+     // console.log(str1+ ' is smaller than' + str2);
       holdstr = str1;
     }
     else if(str2.length < str1.length)
     {
-      console.log(str2 +' length is smaller than ' + str1);
+     // console.log(str2 +' length is smaller than ' + str1);
       holdstr = str2;
     }
     else
     {
-        console.log(str1+' is the same length as '+str2);
+       // console.log(str1+' is the same length as '+str2);
         holdstr = str1 +" is the same length as "+str2
     }
     ansSub1.innerHTML = holdstr;
@@ -49,11 +49,11 @@ document.addEventListener('submit', function(e){
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
     for(var i =0; i < n; i++)
     {
-       c=  Math.floor(Math.random() * s) + 1;
-       console.log('rolled: ' + c);
+       c = Math.floor(Math.random() * s) + 1;
+       //console.log('rolled: ' + c);
 
        total += c;
-        console.log("total: "+total)
+        //console.log("total: "+total)
     }
 
     ansSub2.innerHTML = total;
