@@ -1,0 +1,23 @@
+{
+  "name": "vscode-1",
+  "version": "1.0.0",
+  "description": "my first npm",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run lite\" \"npm run tsc:w\""
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascipt"
+  ],
+  "author": "Jeremy Joynes",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2"
+  }
+}

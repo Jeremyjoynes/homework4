@@ -1,0 +1,36 @@
+#form1{
+background-color: silver;
+display: flex;
+margin: 10px;
+}
+
+#form2{
+display: inline-flex;
+margin: 10px;
+background-color: silver;
+}
+
+#form3{
+display: inline-flex;
+margin: 10px;
+background-color: silver;
+}
+body
+{
+    background-color: black;
+}
+#output1
+{
+  padding: 10px;
+  background-color: yellow;
+}
+#output2
+{
+  padding: 10px;
+  background-color: yellow;
+}
+#output3
+{
+  padding: 10px;
+  background-color: yellow;
+}
