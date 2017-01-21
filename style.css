@@ -1,6 +1,6 @@
 #form1{
 background-color: silver;
-display: flex;
+display: inline-flex;
 margin: 10px;
 }
 
